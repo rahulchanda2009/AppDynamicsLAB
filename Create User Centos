@@ -1,0 +1,16 @@
+user add
+adduser user1
+
+assign user sudo privilege
+usermod -aG wheel user1
+
+Enable password auth
+
+vi /etc/ssh/sshd_config
+PasswordAuthentication yes
+
+restart service
+service sshd restart
+
+Check service status
+service sshd status
