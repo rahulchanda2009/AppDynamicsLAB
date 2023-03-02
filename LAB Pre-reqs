@@ -1,0 +1,11 @@
+The Supercar-Trader application you will be working with in the labs is a simple Struts application which provides for an online supercar store which has some performance/code issues. The application is a Java WAR file that you will deploy on a Linux host where you have installed MySQL 5.7 and Apache Tomcat 9.0.50 using the instructions provided below.
+
+You should use a different Linux host to run the application on (Do Not Use the same host/vm that you used to install the AppDynamics Platform on).
+
+It is recommended that you use one of the following Linux host/vm types with the following resource requirements:
+
+Amazon Linux 2 (AL2) 
+CentOS 7
+CPU: 2 Cores (Minimum)
+Memory: 8 GB RAM (Minimum), 16 GB RAM (Recommended)
+Storage: 40 GB (Minimum), 60 GB (Recommended)
