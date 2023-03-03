@@ -1,3 +1,6 @@
+List users
+cut -d: -f1 /etc/passwd
+
 user add
 adduser user1
 
