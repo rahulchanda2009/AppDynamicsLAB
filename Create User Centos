@@ -12,6 +12,9 @@ Enable password auth
 vi /etc/ssh/sshd_config
 PasswordAuthentication yes
 
+Set Password
+passwd user1
+
 restart service
 service sshd restart
 
