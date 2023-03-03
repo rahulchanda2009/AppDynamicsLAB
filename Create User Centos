@@ -17,3 +17,6 @@ service sshd restart
 
 Check service status
 service sshd status
+
+Delete User
+userdel user1
