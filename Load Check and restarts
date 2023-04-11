@@ -1,0 +1,34 @@
+#Shutdown tomcat
+cd /usr/local/apache/apache-tomcat-9/bin
+
+./shutdown.sh
+
+#Use the command below to check for remaining application JVMs still running.
+
+ps -ef | grep Supercar-Trader
+ 
+#If you find any remaining application JVMs still running, kill the remaining JVMs using the command below.
+
+sudo pkill -f Supercar-Trader
+ 
+#Use the following commands to stop the load generation for the application.
+
+cd /opt/appdynamics/lab-artifacts/phantomjs
+
+./stop_load.sh
+
+#Now use the following commands to start Apache Tomcat.
+
+cd /usr/local/apache/apache-tomcat-9/bin
+
+./startup.sh
+ 
+#Wait for two minutes and use the following command to ensure Apache Tomcat is running on port 8080.
+
+sudo netstat -tulpn | grep LISTEN
+
+#Use the following commands to start the load generation for the application.
+
+cd /opt/appdynamics/lab-artifacts/phantomjs
+
+./start_load.sh
