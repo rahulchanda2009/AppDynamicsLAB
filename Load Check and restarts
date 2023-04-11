@@ -1,3 +1,5 @@
+Note: RUN THE BELOW USING ROOT
+
 #Shutdown tomcat
 cd /usr/local/apache/apache-tomcat-9/bin
 
