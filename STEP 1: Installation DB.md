@@ -108,5 +108,4 @@ Use the following commands to run the database scripts.
 
     mysql -u root -pWelcome1! < mysql-03.sql
     
-    
- Install and Configure Tomcat v9.0.50
+   
