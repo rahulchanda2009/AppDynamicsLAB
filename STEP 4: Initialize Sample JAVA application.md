@@ -39,3 +39,24 @@ The sample application home page is accessible through your web browser with a U
 You should see the home page.
 
 <img width="1478" alt="home" src="https://github.com/rahulchanda2009/AppDynamicsLAB/assets/108357784/7ee0f872-13ca-4da2-aa98-52016a848677">
+
+
+NOTE: 
+
+    Before stating the load generator, make sure to install the AppDynamics java agent
+
+Start the load generation for the sample application
+
+        sudo chmod 754 /opt/appdynamics/lab-artifacts/phantomjs/*.sh
+
+        sed -i -e 's/\r$//' /opt/appdynamics/lab-artifacts/phantomjs/*.sh
+
+        cd /opt/appdynamics/lab-artifacts/phantomjs
+
+        ./start_load.sh
+        
+You should see similar to the following.
+
+<img width="727" alt="Untitled11" src="https://github.com/rahulchanda2009/AppDynamicsLAB/assets/108357784/12fc9e44-2c80-414f-9409-8ba8544e76ea">
+
+
