@@ -108,4 +108,12 @@ Use the following commands to run the database scripts.
 
     mysql -u root -pWelcome1! < mysql-03.sql
     
-   
+Login to SQL DB and check the below
+
+    mysql -h localhost -u root -pWelcome1!
+
+    show databases;
+
+    use supercars;
+
+    show tables;
